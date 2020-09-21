@@ -33,3 +33,33 @@ div.half{
     width:  75%;
 }
 */
+body{
+    background: lightgrey;
+}
+
+#dest{
+    text-align: right;
+    padding: 2px;
+    border: 1px solid black;
+    margin-left: 75%;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    text-align: center;
+}
+#rem{
+    text-align: right;
+    padding: 2px;
+    border: 1px solid black;
+    margin-right:  75%;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    text-align: center;
+}
+#main-container{
+    margin: 20px;
+    color: whitesmoke;
+    background-color: tomato;
+    border: 2px solid black;
+}
