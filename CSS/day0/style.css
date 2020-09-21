@@ -1,0 +1,35 @@
+/*CSS Fundamentos
+
+Selector: referencia en el html;
+regla: variable que queremos cambiar;
+Valor: opcion modificable
+
+Selector{
+
+    regla: Valor
+}
+
+
+p{
+    color: whitesmoke ;
+    background-color: green;
+    font-family:  Arial, Helvetica, sans-serif;
+    
+}   
+div{
+    width: 50%;
+}
+
+body {
+    margin: 0; /*todos los margenes a 0 
+    margin: 10 0; /* margenes arriba y abajo a 10 e izquierda y derecha a 0 
+    margin : 10 20 30 54; /*margenes arriba der, abajo, izq
+}
+
+div#half{
+    width: 50%;
+}
+div.half{
+    width:  75%;
+}
+*/
