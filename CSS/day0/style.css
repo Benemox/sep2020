@@ -42,8 +42,6 @@ body{
     padding: 2px;
     border: 1px solid black;
     margin-left: 75%;
-    -webkit-hyphens: none;
-    -ms-hyphens: none;
     hyphens: none;
     text-align: center;
 }
