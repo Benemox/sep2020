@@ -1,7 +1,40 @@
+body{
+    background-image: url(https://media.giphy.com/media/l0HlR7oxYC1olMu64/giphy.gif); 
+    background-size: cover;
+}
+
+
+    .objetos {
+       
+        text-align: center;
+      }
+      
+    #sword {
+        position: relative;
+        animation: sword 4s infinite;
+      }
+      @keyframes sword {
+        0%   {left:0px; top:-100px;}
+       
+        25% { left:500px; top:0px;}
+      
+        50%{ left:500px; top: -100px;}
+
+        75%{rotate: 50deg;}
+
+        100%{ left: 0; top: 0px}
+        
+    }
+#madrina{
+    float: right;
+}
+
+
+
 .buenos{
     
     position: relative;
-    animation: good 5s linear 2s infinite ;
+    animation: good 6s linear 2s infinite ;
     
 }
 @keyframes good {
@@ -10,15 +43,89 @@
     100% { left: 0px ;top: 1px}
 }
 #castillo{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transition: scale(1.3) 2s, height 2s, transform 2s;
+  }
+  
+  #castillo:hover {
+    width: 600px;
+    height: 600px;
+    transform: scale3d(3 2 1);
+  }
+.objeto{
     
-    animation: castillo 5s lineal 2s infinite ;
-    
+    animation: objeto 3s infinite;
+    transform: rotate(30deg);
+    float: left;
+  
+}
+@keyframes objeto {
+    0% {
+      transform: rotate(-45deg);
+    }
+    50% {
+      transform: rotate(45deg);
+    } 
+    100% {
+        transform: rotate(-45deg);
+      }
+} 
+#manzana{
+    float: right;
+    position: relative;
+    animation: manzana 1s infinite;
+}
+@keyframes manzana {
+0%   {left:0px; top:0px;}
 
-    
-    
+50%{ left: -1000px; top: 0px}
+
+100%   {left:0px; top:0px;}
+} 
+
+#malo1 {
+    animation: malo 2s infinite;
+    transform: scale3d(1, 1, 1);
 }
-@keyframes castillo {
-    0% { scale: 1;}
-    100% { scale:2 ;}
+@keyframes malo{
+    0% {
+        transform: scale3d(1, 1, 1) ;left: 100px;
+      }
+    50% {
+        transform: scale3d(1.4, 1.2, 1.4); left: 300px;
+    } 
+     75% {
+          transform: scale3d(1.3, 1.2, 1.1);left: 400px;
+     }
+     100% {
+        transform: scale3d(1, 1, 1);
+      }
 }
-    
+#malo3{
+	
+  position: relative;
+  animation: malo3 5s infinite;
+}
+@keyframes malo3 {
+  0%   {left:0px; top:0px;}
+ 
+  50% { left:500px; top:0px;}
+
+  100%{ left:500px; top: -200px;}
+}
+#dragon {
+    width: 100px;
+    height: 100px;
+    float: right;
+    position:relative;
+   
+    transition: scale(1.3) 2s, height 2s, transform 2s;
+  }
+  
+  #dragon:hover {
+    width: 500px;
+    height: 500px;
+    transform: scale3d(3 2 1);
+  }
