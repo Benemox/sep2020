@@ -1,0 +1,28 @@
+section.flex{
+    
+    
+    display:flex;
+    width: 50%;
+   
+}
+section.flex div img{
+    width: 180px;
+}
+section.flex div {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+     margin: 5px;
+     width: 100px;
+     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 4;
+    
+
+}
+section.flex div p {
+    margin: 8px;
+    text-align: center;
+
+}

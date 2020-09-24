@@ -32,7 +32,7 @@ div#half{
 div.half{
     width:  75%;
 }
-*/
+dia 2
 body{
     background: lightgrey;
 }
@@ -61,3 +61,35 @@ body{
     background-color: tomato;
     border: 2px solid black;
 }
+dia 4
+
+ a{
+     background-color: red;
+     display: inline-block;
+ }
+
+ 
+div.main-container{
+    height: cal(100vh - 8px);
+    width: cal(100vh - 8px);
+    display:flex;
+    justify-content: center;
+    align-items: flex;
+    flex-direction: row;
+    background-color: #f007;
+}
+div{
+    box-sizing: border-box;
+    
+    background-color: yellow;
+    flex-wrap: wrap;
+
+}
+
+
+
+eje x va con justify-content
+eje y va con align-items
+
+En column cambia la propiedades de x ha y 
+*/

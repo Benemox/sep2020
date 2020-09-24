@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    background-color: royalblue;
+    
+}
+div#main-container{
+    width: 600px;
+    display: flex;
+    background: seashell;
+    margin: 30%;
+    margin-top: 10%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+}
+div.peque{
+    display: flex;
+    padding: 1px;
+    border-bottom: 1px solid lightgrey;
+    flex-wrap: wrap; 
+    margin: 3%;
+    
+}
+div.peque:last-child{
+    border-bottom: none;
+}
+img {
+    display: flex;
+    width: 100px;
+    height: 100px;;
+    border-radius: 100px;
+    margin: 3%;
+    
+  }
+ div p:nth-child(1){
+    font-weight: 700;
+    font-size: 24px;
+  }
+  div p:nth-child(2){
+    opacity: 0.5;
+  }
+
+  
