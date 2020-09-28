@@ -1,5 +1,5 @@
 //Tabata 28-09-2020
-
+/*
 //1- Crear variable tipo let de nombre variableSinValor declarada sin valor
 
 let variableSinValor;
@@ -144,6 +144,4 @@ for(preJ; preJ < 11 ; preJ++){
          console.log("no suma")
      }
  }
-
-
-
+*/
