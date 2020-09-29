@@ -12,7 +12,7 @@ for(i=0;i<=1000;i++){
     }if(i % 5 == 0) {
         buzz = true
     }if(fizz === true && buzz === true){
-        console.log("fizz" + "buzz")
+        console.log("fizz" + "buzz" )
     }if(fizz !== true && buzz === true){
         console.log("buzz")
     }if(fizz === true && buzz !== true){

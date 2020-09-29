@@ -60,19 +60,21 @@ for(postJ; postJ < 10 ; postJ++){
   //console.log(  postI )
 }
 // Crear la variable sumaPares con valor 0 a continuación crea un bucle que itere 10 veces (i < 10) si la iteración es par se deberá sumar a sumaPares el número de la iteración actual (i)
-
+*/
 let sumaPares = 0;
 
-for( i = 0; i < 10; i++){
+for( i = 0; i <= 10; i++){
    if(
        i % 2 === 0
    ){
        sumaPares+=i;
        i++
-   }
-   //console.log( sumaPares)
-    
+       console.log(sumaPares + "este si")
+       if(i%2 !== 0){
+       console.log(i)}
+   }  
 }
+/*
 //Crear variable tipo let de nombre variableValorNumerico declarada con un valor numérico cualquiera
 
 let variableValorNumerico = 2;
@@ -136,7 +138,7 @@ for(preJ; preJ < 11 ; preJ++){
 // 26.- Crear la variable sumaImpares con valor 0 a continuación crea un bucle que itere 10 veces (i < 10) si la iteración es impar se deberá sumar a sumaImpares el número de la iteración actual (i)
 
  let sumarImpares = 0;
- for(i=1;i<=10;i++){
+ for(i=1;i<10;i++){
      if(i % 2 !== 0 ){
          sumarImpares= sumarImpares + i
          console.log(sumarImpares)
